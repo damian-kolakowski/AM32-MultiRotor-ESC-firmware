@@ -61,7 +61,7 @@ dshot_frametime = dma_buffer[31]- dma_buffer[0];
 				if(!armed){
 					if (dshot_telemetry == 0){
 						 if(calcCRC == ~checkCRC+16){
-							 dshot_telemetry = 1;
+							 //dshot_telemetry = 1;
 						 }
 					}
 				}
